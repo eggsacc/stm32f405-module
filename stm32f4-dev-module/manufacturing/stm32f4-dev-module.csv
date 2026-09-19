@@ -1,0 +1,56 @@
+Reference,Qty,Value,Footprint,Purhased,Qty,Link
+"C1,C2,C3,C4,C5,C13,C16,C22,C23,C24",10,100n,Capacitor_SMD:C_0402_1005Metric,TRUE,100,0402??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+C6,1,10u,Capacitor_SMD:C_0603_1608Metric,TRUE,100,0603??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+"C7,C21",2,10n,Capacitor_SMD:C_0402_1005Metric,TRUE,100,0402??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+"C8,C9,C17",3,1u,Capacitor_SMD:C_0402_1005Metric,TRUE,100,0402??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+"C10,C11",2,14p,Capacitor_SMD:C_0402_1005Metric,TRUE,100,0402??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+"C14,C15",2,1u,Capacitor_SMD:C_0603_1608Metric,TRUE,100,0603??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+"C18,C19",2,2u2,Capacitor_SMD:C_0603_1608Metric,TRUE,100,0603??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+C20,1,4u7,Capacitor_SMD:C_0603_1608Metric,TRUE,100,0603??????? 22pF33pF47pF100pF2.2nF4.7nF100nF1uF10uF-???
+D1,1,GREEN,LED_SMD:LED_0402_1005Metric,TRUE,10,??LED 0402 0603 0805 1206??????? ?????????-tmall.com??
+FB1,1,120R,Inductor_SMD:L_0603_1608Metric,TRUE,100,0603?????????30R60R100R120R150R220R300R600R1K2K2.5K-???
+J1,1,SW,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,TRUE,10,???SH1.0??JSTSH ???1.0mm????/??/???????-???
+J3,1,I2C1,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,TRUE,0,
+J4,1,SPI1,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,TRUE,0,?/??? ??2.54MM 1*2p/3p/4p/8P/16p/20p?? LCD1602/12864-tmall.com??
+J5,1,5V_IN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,TRUE,0,
+J6,1,OLED,addons:OLED header,TRUE,0,
+J7,1,USB_C_Receptacle_USB2.0_16P,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV,TRUE,0,USB Type-C 16P?????????????????USB???-???
+J8,1,USART3,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,TRUE,0,
+J9,1,PWM,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,TRUE,0,
+J10,1,Screw_Terminal_01x03,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-3-3.81_1x03_P3.81mm_Horizontal,TRUE,0,KF128/126????2P???2.54/3.81/5.08MM??5.0?????3P-tmall.com??
+J11,1,Conn_02x10_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,TRUE,0,
+"R1,R3,R10,R12",4,10k,Resistor_SMD:R_0402_1005Metric,TRUE,0,0402?????? ??1% 10R1K1.2K2.2K3.3K4.7K5.1K10K100K1M?-???
+R2,1,330,Resistor_SMD:R_0402_1005Metric,TRUE,0,0402?????? ??1% 10R1K1.2K2.2K3.3K4.7K5.1K10K100K1M?-???
+"R4,R5",2,60,Resistor_SMD:R_0402_1005Metric,TRUE,0,0402?????? ??1% 10R1K1.2K2.2K3.3K4.7K5.1K10K100K1M?-???
+R6,1,0,Resistor_SMD:R_0603_1608Metric,TRUE,0,0402 0603 0805 1206????1%5% 1R10R100R1K 4.7K10K 47K 100K-???
+"R7,R8",2,5k1,Resistor_SMD:R_0402_1005Metric,TRUE,0,0402?????? ??1% 10R1K1.2K2.2K3.3K4.7K5.1K10K100K1M?-???
+"R9,R11",2,100,Resistor_SMD:R_0402_1005Metric,TRUE,0,0402?????? ??1% 10R1K1.2K2.2K3.3K4.7K5.1K10K100K1M?-???
+SW1,1,SW_SPST,Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin,TRUE,10,??????/??1/2/3/4/5/6/7/8/9/10/12p??1.27/2.54mm??-???
+"SW5,SW6",2,BTN_UTIL,addons:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2,TRUE,0,????4???2??????????????????????-tmall.com??
+SW7,1,BTN,addons:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2,TRUE,40,????4???2??????????????????????-tmall.com??
+U1,1,STM32F405RGT6,Package_QFP:LQFP-64_10x10mm_P0.5mm,TRUE,2,???? STM32F405RGT6 STM32F405VGT6 405ZGT6 405OEY6TR VGT7-tmall.com??
+U2,1,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,TRUE,20,USBLC6-2SC6 USB2.0??ESD????? ???? ??UL26 SOT-23-tmall.com??
+U3,1,SN65HVD230,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TRUE,5,???? ?? SN65HVD230DR SOP-8 CAN????? ??-???
+U4,1,AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,TRUE,10,AP2112K-3.3TRG1 1.2V 1.8V 2.5V ??G3M LDO????? SOT23-5-???
+Y1,1,25MHz,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,TRUE,10,3225_4P???????? 8/12/13.56/16/20/24/25/26/32/40MHz-???
+,,,,,,
+,,,,,,
+,,,Request from seller values,,,
+,,,,,,
+,??,,,,,
+,1,"100nF, 16V, X7R",0402,,,
+,2,"10nF, 50V, X7R",0402,,,
+,3,"1uF, 25V, X5R, 10%",0402,,,
+,4,"13pF, 50V, C0G ",0402,,,
+,5,"1uF, 16V, X7R, 10%",0603,,,
+,6,"2.2uF, 16V, X7R, 10%",0603,,,
+,7,"4.7uF, 16V, X5R, 10%",0603,,,
+,8,"10uF, 10V, X5R, 10% ",0603,,,
+,,,,,,
+,??,,,,,
+,1,10k,0402,,,
+,2,330,0402,,,
+,3,60,0402,,,
+,4,5.1K,0402,,,
+,5,100,0403,,,
+,6,0,0603,,,
