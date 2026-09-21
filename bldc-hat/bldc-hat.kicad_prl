@@ -46,11 +46,14 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes"
+      "shapes",
+      "board_outline_area",
+      "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffaa",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffaf",
     "zone_display_mode": 0
   },
   "git": {
@@ -60,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "stm32f4-dev-module.kicad_prl",
+    "filename": "bldc-hat.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -93,18 +96,18 @@
       11
     ],
     "col_widths": [
-      186,
-      171,
-      131,
-      106,
-      114,
-      134,
-      116,
-      112,
-      112,
-      112,
-      112,
-      112
+      133,
+      122,
+      94,
+      76,
+      81,
+      96,
+      83,
+      80,
+      80,
+      80,
+      80,
+      80
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
