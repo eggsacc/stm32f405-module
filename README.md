@@ -1,18 +1,25 @@
 <div align="center">
 
-# STM32F405 Dev Module
+# STM32F405 Dev Module + BLDC hat
 
 ![MCU](https://img.shields.io/badge/MCU-STM32F405RGT6-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![PCB](https://img.shields.io/badge/PCB-4--layer%20%C2%B7%2058.75%20%C3%97%2035.5%20mm-2E8B57?style=flat-square)
 ![EDA](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
 
-<img src="assets/stm32f4-dev-module-2.png" width="720" alt="STM32F4 dev module render">
+### MCU Dev
+STM32F405RGT6 MCU dev module with commonly used peripherals broken out for easy access, and a dedicated CAN transceiver. Also includes 2 user programmable buttons and mini OLED display.
 
+<img src="assets/f405-dev-v1.1.png" width="720" alt="STM32F4 dev module render">
+
+### BLDC Dev
+BLDC hat based on the DRV8316C integrated driver. 6-PWM mode, 5-35V input, 5A continuous and 3-phase low-side current sensing. Suitable for FOC algorithm developement and testing for low current gimbal motors.
+
+<img src="assets/bldc-v1.0.png" width="720" alt="STM32F4 dev module render">
 </div>
 
 ---
 
-## Pinout
+## MCU Pinout
 
 <div align="center">
 <img src="assets/stm32_ioc.png" width="720" alt="STM32CubeMX pin map">
@@ -49,7 +56,13 @@
 
 ---
 
+## BLDC Hat hardware
 <div align="center">
-Designed by <b>@eggsacc</b> · F405 Dev. V1.0<br>
-Updated 19/09/2026
+<img src="assets/bldc-layout.png" width="720" alt="STM32CubeMX pin map">
+</div>
+
+---
+<div align="center">
+Designed by <b>@eggsacc</b> · F405 Dev. V1.1<br>
+Updated 22/09/2026
 </div>
